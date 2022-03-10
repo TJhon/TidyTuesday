@@ -172,7 +172,7 @@ by_state <- function(x){
     theme(
       legend.position = c(.5, .8)
       , plot.title = element_text(hjust = .5, size = 30, family = f2, face = "bold")
-      , plot.background = element_rect(fill = "#94b6ef")
+      , plot.background = element_rect(fill = "#94b6ef", color = NA)
       , plot.subtitle = element_text(hjust = .5, size = 20, family = f1, color = color_fuel[[alt_n]], face = "bold")
       , plot.caption = element_text(family = f1, lineheight = .3, size = 12, hjust = 0)
       , legend.title = element_blank()
